@@ -12,7 +12,6 @@ s2t.set_service_url(url_s2t)
 # print(s2t)
 
 # filename = 'filename.mp3'
-
 with open(filename, mode="rb") as wav:
     response = s2t.recognize(audio=wav, content_type='audio/mp3')
 
