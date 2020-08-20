@@ -16,6 +16,4 @@ with open(filename, mode="rb") as wav:
     response = s2t.recognize(audio=wav, content_type='audio/mp3')
 
 # print(response.result)
-print('\n')
-print(json_normalize(response.result['results'], "alternatives"))
-print('\n')
+print('\n', json_normalize(response.result['results'], "alternatives"), '\n')
