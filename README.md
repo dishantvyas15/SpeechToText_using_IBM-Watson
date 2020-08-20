@@ -8,4 +8,4 @@ To run the script without any glitches, consider the requirements.txt file (at h
 
 Supported language for speech: English
 
-Used Packages: ibm_watson wget, pandas, numpy
+Used Package: ibm_watson wget
